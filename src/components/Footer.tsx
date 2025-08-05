@@ -36,7 +36,7 @@ const Footer = () => {
               </div>
             </Link>
             <p className="text-sm opacity-90 mb-6 leading-relaxed">
-              Building tomorrow's infrastructure today. Professional civil engineering and construction services with over 100 years of combined experience.
+              Building tomorrow's infrastructure today. Professional civil engineering and construction services with over 5 years of combined experience.
             </p>
             <div className="flex space-x-4">
               <Button variant="ghost" size="sm" className="p-2 hover:bg-primary-light">
@@ -115,15 +115,6 @@ const Footer = () => {
               © {currentYear} KF CIVIL PRO Builders. All rights reserved.
             </div>
             <div className="flex space-x-6 text-sm">
-              <Link to="/privacy" className="opacity-90 hover:opacity-100 hover:text-accent transition-colors">
-                Privacy Policy
-              </Link>
-              <Link to="/terms" className="opacity-90 hover:opacity-100 hover:text-accent transition-colors">
-                Terms of Service
-              </Link>
-              <Link to="/cookies" className="opacity-90 hover:opacity-100 hover:text-accent transition-colors">
-                Cookie Policy
-              </Link>
             </div>
           </div>
         </div>
