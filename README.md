@@ -122,10 +122,6 @@ The website uses a professional design system with:
 
 ## 🌐 Deployment
 
-### Lovable Platform
-- Already configured for Lovable deployment
-- Use the "Publish" button in the Lovable interface
-
 ### Other Platforms
 - **Vercel**: Connect GitHub repo and deploy
 - **Netlify**: Drag and drop the `dist` folder after build
@@ -134,7 +130,6 @@ The website uses a professional design system with:
 ## 📞 Support
 
 For questions about customization or deployment, refer to:
-- [Lovable Documentation](https://docs.lovable.dev/)
 - [React Documentation](https://react.dev/)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 
