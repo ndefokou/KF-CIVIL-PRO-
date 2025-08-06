@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords"
+        content="Method, Engineering, Method Engineering, entreprise de construction à Douala, ingénieur génie civil Douala, bureau d’études BTP Douala, entreprise de BTP au Cameroun, entreprise de génie civil au cameroun, entretient de structures, études, entreprise btp douala, entreprise de génie civil au cameroun, Infrastructures, Bâtiments, Ouvrages d'art, Douala, Cameroun," />
+    <meta name="author" content="Method Engineering" />
+    <meta name="robots" content="robots.txt" />
+    <meta name="description"
+        content="KF-CIVIL-PRO : Nous sommes un bureau d'études basé à Douala, spécialisé dans la construction de Bâtiment, génie civil, les Ouvrages d'art, l'infrastructures et les VRD" />
+    <meta property="og:title"
+        content="KF-CIVIL-PRO : Nous sommes un bureau d'études basé à Douala, spécialisé dans la construction de Bâtiment, génie civil, les Ouvrages d'art, l'infrastructures et les VRD" />
+    <meta property="og:description"
+        content="KF-CIVIL-PRO : Nous sommes un bureau d'études basé à Douala, spécialisé dans la construction de Bâtiment, génie civil, les Ouvrages d'art, l'infrastructures et les VRD" />
+    <meta property="og:image" content="https://www.method-engineering.com/images/logo/logo-method.png" />
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- Mobile Specific -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title -->
+    <title>Method Engineering : Bureau d'études, Bâtiment, Ouvrages d'Art, Infrastructures & VRD</title>
+
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" href="../images/favicons/favicon.ico">
+    <link rel="apple-touch-icon" type="image/png" href="../images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="512x512"
+        href="../images/favicons/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="192x192"
+        href="../images/favicons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicons/favicon-32x32.png">
+
+
+    <!-- Stylesheet -->
+    <link href="../vendor/lightgallery/css/lightgallery.min.css" rel="stylesheet">
+    <link href="../vendor/magnific-popup/magnific-popup.min.css" rel="stylesheet">
+    <link href="../vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="../vendor/aos/aos.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="stylesheet" class="skin" href="../css/skin/skin-1.css">
+    <style>
+    /* Règle générale pour tous les strong/b dans .port-detail : noir, gras (700), sans soulignement */
+    .port-detail strong,
+    .port-detail b {
+        color: #000000; /* Noir par défaut */
+        font-weight: 700; /* Gras */
+        text-decoration: none; /* Retire tout soulignement par défaut */
+    }
+
+    /* Règle pour le titre principal du projet (h2.dz-title) */
+    .dz-title {
+        color: #dec36a;
+    }
+
+    /* Styles pour les "sous-titres" Localisation et Appelez-nous (h4.title.m-b5) :
+    Couleurjaune (#d4ab3b) et taille de 18px.
+    Nous allons les cibler de manière plus spécifique pour augmenter la priorité.
+    */
+    .icon-bx-wraper.style-7 .icon-content h4.title.m-b5 {
+        color: #d4ab3b !important; /* Couleurjaune demandée */
+        font-size: 18px !important; /* Taille de 18px */
+    }
+
+    /* Nouvelle règle : Tous les éléments h3 doivent être en #d4ab3b et de taille 20px */
+    /* Ajout de !important pour forcer la couleur et la taille au cas où */
+    h3 {
+        color: #d4ab3b !important; /* Couleurjaune demandée */
+        font-size: 20px !important; /* Nouvelle taille demandée : 20px */
+    }
+
+    /* Style général pour les wrappers de boutons de navigation */
+    /* Le 'next-project-button-wrapper' existant pour les boutons de fin de description */
+    .next-project-button-wrapper {
+        margin-top: 30px; /* Ajoute un espacement au-dessus du bouton pour le séparer de la description */
+        margin-bottom: 30px; /* Ajoute un espacement en dessous pour le séparer des icônes de localisation/téléphone */
+        text-align: center; /* Centre le bouton dans son conteneur */
+    }
+
+    /* Nouveau style pour le wrapper du bouton "Autres projets" en haut de page */
+    .top-projects-button-wrapper {
+        text-align: center; /* Centrer le bouton */
+        margin-top: 40px; /* Espace au-dessus, pour ne pas être collé au header */
+        margin-bottom: 40px; /* Espace en dessous, pour ne pas être collé au contenu du projet */
+    }
+
+    .project-button {
+        display: inline-flex; /* Permet d'aligner l'icône et le texte */
+        align-items: center; /* Aligne verticalement l'icône et le texte */
+        background-color: #d4ab3b; /* Couleur de fond du bouton */
+        color: #FFFFFF; /* Couleur du texte du bouton */
+        font-size: 16px;
+        font-weight: bold;
+        padding: 15px 30px;
+        border-radius: 5px; /* Bords légèrement arrondis */
+        text-decoration: none; /* Pas de soulignement */
+        transition: background-color 0.3s ease; /* Effet de transition au survol */
+        /* Si vous avez d'autres boutons à côté, ajoutez un margin: 0 10px; */
+    }
+
+    .project-button:hover {
+        background-color: #dec36a; /* Couleur légèrement plus claire au survol */
+        color: #FFFFFF; /* S'assurer que le texte reste blanc au survol */
+        text-decoration: none; /* Pas de soulignement au survol */
+    }
+
+    .project-button i {
+        margin-left: 10px; /* Espace entre le texte et la flèche */
+        font-size: 1.2em; /* Taille de la flèche */
+    }
+
+    /* Important : Si "Maitre d’ouvrage :" et "Description de l’opération :" sont aussi censés être enjaune,
+    et qu'ils sont des <strong> dans les paragraphes, tu devras leur donner une classe spécifique (ex: <strong class="text-rouge">)
+    et ajouter la règle CSS suivante :
+    .port-detail .text-rouge {
+        color: #d4ab3b !important;
+    }
+    */
+</style>
+</head>
+
+<body id="bg" class="theme-rounded">
+    <!--<div id="loading-area" class="loading-page-1">
+        <div class="spinner">
+            <div class="ball"></div>
+            <p>Chargement</p>
+        </div>
+    </div>-->
+    <div class="page-wraper">
+        <!-- Header -->
+        <header class="site-header mo-left header style-1">
+    <!-- Header Top Bar -->
+    <div class="top-bar">
+    <div class="container-fluid">
+        <div class="dz-topbar-inner d-flex justify-content-between align-items-center">
+            <div class="dz-topbar-left">
+                <ul class="dz-social-icon">
+                    <li><a class="fab fa-facebook-f" href="https://web.facebook.com/methodengineering.cmr"></a>
+                    </li>
+                    <li><a class="fab fa-twitter" href="mairie-de-mvengue.html"></a></li>
+                    <li><a class="fab fa-linkedin" href="mairie-de-mvengue.html"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="dz-topbar-right">
+                <ul>
+                    <li>
+                        <div class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                                                            <span>Français</span>
+                                                    </div>
+                        <div class="dropdown-menu">
+                            <a href="../language/en.html"
+                                class="dropdown-item">Anglais</a>
+                            <a href="../language/fr.html"
+                                class="dropdown-item">Français</a>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        BP: <span style="font-weight: 900; color: black;">5311</span>, Akwa-Douala Cameroun                    </li>
+                    
+                    <li>
+                        <i class="far fa-envelope"></i>
+                        <a href="mailto:contact@KF-CIVIL-PRO.com" style="font-weight: 900; color: black;">contact@KF-CIVIL-PRO.com</a>                    </li>
+                    
+                    <li>
+                        <i class="fas fa-phone-alt"></i>
+                        +237 233 433 875 | <a href="tel:+237681550624" style="font-weight: 900; color: #d4ab3b;">+237 681 550 624</a>                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Main Header -->
+    <div class="sticky-header main-bar-wraper navbar-expand-lg">
+        <div class="main-bar clearfix ">
+            <div class="container-fluid clearfix" style="height: 80px;">
+                <!-- Website Logo -->
+                <div class="logo-header mostion logo-dark" style="height: 80px;">
+                    <a href="../language/fr.html"><img src="../images/logo-method.webp"
+                            alt="Logo Method Engineering"></a>
+                </div>
+                <!-- Nav Toggle Button -->
+                <button class="navbar-toggler collapsed navicon justify-content-end" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <div class="header-nav navbar-collapse collapse justify-content-center" id="navbarNavDropdown">
+                    <div class="logo-header logo-dark">
+                        <a href="../language/fr.html"><img src="../images/logo-method.webp"
+                                alt="Logo Method Engineering"></a>
+                    </div>
+                    <ul class="nav navbar-nav navbar navbar-left">
+                        <li class=""><a href="../language/fr.html">ACCUEIL</a></li>
+                        <li class=""><a href="../about-us.html">A PROPOS</a></li>
+                        <li class=""><a href="../our-skills.html">NOS MÉTIERS</a></li>
+                        <li class=" active"><a href="../projects.html">NOS PROJETS</a></li>
+                        <li class=""><a href="../articles.html">ACTUALITÉS</a></li>
+                        <li class=""><a href="../contact-us.html">CONTACTEZ-NOUS</a></li>
+                    </ul>
+                    <div class="dz-social-icon">
+                        <ul>
+                            <li><a class="fab fa-facebook-f"
+                                    href="https://web.facebook.com/methodengineering.cmr"></a>
+                            </li>
+                            <li><a class="fab fa-twitter"
+                                    href="mairie-de-mvengue.html"></a>
+                            </li>
+                            <li><a class="fab fa-linkedin-in"
+                                    href="mairie-de-mvengue.html"></a>
+                            </li>
+                            <li><a class="fab fa-instagram"
+                                    href="mairie-de-mvengue.html"></a>
+                            </li>
+                            <li>
+                                <div class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                                                            <span>Français</span>
+                                                                    </div>
+                                <div class="dropdown-menu">
+                                    <a href="../language/en.html"
+                                        class="dropdown-item">Anglais</a>
+                                    <a href="../language/fr.html"
+                                        class="dropdown-item">Français</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Main Header End -->
+</header>
+        <!-- Header End -->
+        <div class="contact-sidebar">
+    <div class="contact-box">
+        <div class="logo-contact logo-dark">
+            <a href="../language/fr.html"><img src="../images/logo-method.png"
+                    alt="Logo Method Engineering"></a>
+        </div>
+
+        <div class="m-b50 contact-text">
+            <div class="dz-title">
+                <h4>A PROPOS</h4>
+                <div class="dz-separator style-1 text-primary mb-0"></div>
+            </div>
+            <p>Construire l’avenir avec expertise et innovation.</p>
+            <a href="../contact-us.html"
+                class="btn btn-primary btn-sm">Prêt à passer à l&#039;action ?</a>
+        </div>
+        <div class="dz-title">
+            <h4>Informations de contact</h4>
+            <div class="dz-separator style-1 text-primary mb-0"></div>
+        </div>
+        <div class="icon-bx-wraper left">
+            <div class="icon-md m-r20">
+                <span class="icon-cell"><i class="las la-phone-volume"></i></span>
+            </div>
+            <div class="icon-content">
+                <h5 class="tilte">Numéro de téléphone</h5>
+                <p class="m-b0">6 93 74 99 32 | </p>
+            </div>
+        </div>
+        <div class="icon-bx-wraper left">
+            <div class="icon-md m-r20">
+                <span class="icon-cell"><i class="las la-envelope-open"></i></span>
+            </div>
+            <div class="icon-content">
+                <h5 class="tilte">Adresse mail </h5>
+                <p class="m-b0">contact@KF-CIVIL-PRO.com</p>
+            </div>
+        </div>
+        <div class="icon-bx-wraper left">
+            <div class="icon-md m-r20">
+                <span class="icon-cell"><i class="las la-map-marker"></i></span>
+            </div>
+            <div class="icon-content">
+                <h5 class="tilte">Localisation</h5>
+                <p class="m-b0">BP: 5311, Akwa-Douala Cameroun</p>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="menu-close"></div>
+
+            <div class="page-content bg-white">
+        
+        
+        <section class="section-full content-inner-1 port-detail">
+            <div class="container">
+                <div class="row mb-lg-5">
+                    <div class="col-lg-12 col-md-12 m-b50 m-sm-b30 aos-item" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-delay="200">
+                        <img src="../storage/01JZ4A2Y9Q6D388EJQSXZW278J.webp" alt="MAIRIE DE MVENGUE" />
+                    </div>
+                    <div class="col-lg-7 col-md-12 align-self-center aos-item" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-delay="400">
+                        <h2 class="dz-title">MAIRIE DE MVENGUE</h2>
+                        <p><h3>Maitre d’ouvrage :&nbsp;</h3><p><strong>MAIRIE DE LA VILLE DE MVENGUE</strong></p></p>
+                        <p class="m-b30"><h3>Description de l’opération :&nbsp;</h3><p>Il s’agit d’un projet qui rentre dans le projet d’extension et d’aménagement de la commune d’arrondissement de KRIBI 2eme. Le projet comprend :&nbsp;</p><p>-&nbsp; &nbsp; &nbsp; &nbsp;<strong>Un bâtiment R+1</strong> (Bureau)&nbsp;</p><p>-&nbsp; &nbsp; &nbsp; &nbsp;Une salle des actes de <strong>plus de 100 places</strong></p><p>-&nbsp; &nbsp; &nbsp; &nbsp;Aménagements extérieurs&nbsp;</p><p><strong>Mission :</strong> Maitrise d'œuvre</p></p>
+
+                        
+                        
+                        <div class="icon-bx-wraper style-7 left m-b30">
+                            <div class="icon-bx-sm rounded-0 bg-primary">
+                                <span class="icon-cell"><i class="flaticon-placeholder"></i></span>
+                            </div>
+                            <div class="icon-content">
+                                
+                                <h4 class="title m-b5">Localisation</h4>
+                                <p>Mvengue - Sud Cameroun</p>
+                            </div>
+                        </div>
+                        <div class="icon-bx-wraper style-7 left m-b30">
+                            <div class="icon-bx-sm rounded-0 bg-primary">
+                                <span class="icon-cell"><i class="flaticon-telephone"></i></span>
+                            </div>
+                            <div class="icon-content">
+                                <h4 class="title m-b5">Appelez-nous</h4>
+                                <p>6 93 74 99 32 | </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12 m-b30 aos-item" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-delay="600">
+                        <img src="../storage/01JZ4A2Y9S4FG4Z9J9FM8CGY2J.webp" class="d-lg-block d-none"
+                            alt="MAIRIE DE MVENGUE" />
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row lightgallery mb-3">
+                                                                        <div class="col-lg-6 col-md-6 m-b30 aos-item" data-aos="fade-up" data-aos-duration="1000"
+                                data-aos-delay="200">
+                                <div class="dz-box overlay style-1">
+                                    <div class="dz-media">
+                                        <img src="../storage/01JZAZJ9WHS9A18Z6T2E27JMAC.webp" alt="MAIRIE DE MVENGUE">
+                                    </div>
+                                    <div class="dz-info">
+                                        <span data-exthumbimage="https://www.method-engineering.com/storage/01JZAZJ9WHS9A18Z6T2E27JMAC.webp"
+                                            data-src="https://www.method-engineering.com/storage/01JZAZJ9WHS9A18Z6T2E27JMAC.webp" class="view-btn lightimg"
+                                            title="building"></span>
+                                    </div>
+                                </div>
+                            </div>
+                                                    <div class="col-lg-6 col-md-6 m-b30 aos-item" data-aos="fade-up" data-aos-duration="1000"
+                                data-aos-delay="200">
+                                <div class="dz-box overlay style-1">
+                                    <div class="dz-media">
+                                        <img src="../storage/01JZAZJ9WMRC52JYX91NAJ1PWE.webp" alt="MAIRIE DE MVENGUE">
+                                    </div>
+                                    <div class="dz-info">
+                                        <span data-exthumbimage="https://www.method-engineering.com/storage/01JZAZJ9WMRC52JYX91NAJ1PWE.webp"
+                                            data-src="https://www.method-engineering.com/storage/01JZAZJ9WMRC52JYX91NAJ1PWE.webp" class="view-btn lightimg"
+                                            title="building"></span>
+                                    </div>
+                                </div>
+                            </div>
+                                                            </div>
+            </div>
+        </section>
+
+        
+        <div class="container-fluid">
+            <div class="swiper-container swiper-portfolio lightgallery aos-item" data-aos="fade-in"
+                data-aos-duration="1000" data-aos-delay="400">
+                <div class="swiper-wrapper">
+                                    </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Footer -->
+<footer class="site-footer style-1" id="footer"
+    style="background-image:url(../images/background/pattern3.png)">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-lg-6 ">
+                    <img src="../images/logo-method.png" style="height: 150px;margin-bottom: 30px;"
+                        alt="Logo Method Engineering">
+                    <p>Construire l’avenir avec expertise et innovation.</p>
+                </div>
+                <div class="col-md-6 col-lg-3 aos-item" data-aos="fade-up" data-aos-duration="1000"
+                    data-aos-delay="800">
+                    <div class="widget widget_categories">
+                        <div class="widget-title">
+                            <h4 class="title">Liens Rapides</h4>
+                            <div class="dz-separator style-1 text-primary mb-0"></div>
+                        </div>
+                        <ul class="list-1">
+                            <li class="cat-item"><a href="../language/fr.html">ACCUEIL</a></li>
+                            <li class="cat-item"><a href="../about-us.html">A PROPOS</a></li>
+                            <li class="cat-item"><a href="../our-skills.html">NOS MÉTIERS</a></li>
+                            <li class="cat-item"><a href="../projects.html">NOS PROJETS</a></li>
+                            <li class="cat-item"><a href="../articles.html">ACTUALITÉS</a></li>
+                            <li class="cat-item"><a href="../contact-us.html">CONTACTEZ-NOUS</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 aos-item" data-aos="fade-up" data-aos-duration="1000"
+                    data-aos-delay="1000">
+                    <div class="widget widget_getintuch">
+                        <div class="widget-title">
+                            <h4 class="title">CONTACTEZ-NOUS</h4>
+                            <div class="dz-separator style-1 text-primary mb-0"></div>
+                        </div>
+                        <ul>
+                            <li><i class="flaticon-telephone"></i>
+                                <h5>Numéro de téléphone</h5> 6 93 74 99 32 | 
+                            </li>
+                            <li><i class="flaticon-email"></i>
+                                <h5>Adresse mail </h5>contact@KF-CIVIL-PRO.com
+                            </li>
+                            <li><i class="flaticon-maps-and-location"></i>
+                                <h5>Localisation</h5>BP: 5311, Akwa-Douala Cameroun
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row align-items-center fb-inner spno">
+                <div class="col-lg-6 col-md-12 text-start">
+                    <span class="copyright-text">Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear())
+                        </script> <a href="https://method-engineering.com/" class="text-primary"
+                            target="_blank">KF-CIVIL-PRO</a> All rights reserved. By <a
+                            href="https://novatique-web.com/" class="text-primary" target="_blank">Novatique</a>
+                    </span>
+                </div>
+                <div class="col-lg-6 col-md-12 text-end">
+                    <ul class="footer-link d-inline-block">
+                        <li><a href="https://web.facebook.com/methodengineering.cmr"><i
+                                    class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="mairie-de-mvengue.html"><i
+                                    class="fab fa-instagram"></i></a></li>
+                        <li><a href="mairie-de-mvengue.html"><i
+                                    class="fab fa-twitter"></i></a></li>
+                        <li><a href="mairie-de-mvengue.html"><i
+                                    class="fab fa-linkedin"></i></a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer End -->
+        <button class="scroltop icon-up" type="button"><i class="fas fa-arrow-up"></i></button>
+    </div>
+    <!-- JAVASCRIPT FILES ========================================= -->
+    <script src="../js/jquery.min.js"></script><!-- JQUERY.MIN JS -->
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+
+    <script src="../vendor/magnific-popup/magnific-popup.js"></script><!-- MAGNIFIC POPUP JS -->
+    <script src="../vendor/lightgallery/js/lightgallery-all.min.js"></script><!-- LIGHTGALLERY -->
+    <script src="../vendor/counter/waypoints-min.js"></script><!-- WAYPOINTS JS -->
+    <script src="../vendor/counter/counterup.min.js"></script><!-- COUNTERUP JS -->
+    <script src="../vendor/swiper/swiper-bundle.min.js"></script><!-- OWL-CAROUSEL -->
+    <script src="../vendor/aos/aos.js"></script><!-- AOS -->
+    <script src="../js/dz.carousel.js"></script><!-- OWL-CAROUSEL -->
+    <script src="../js/dz.ajax.js"></script><!-- AJAX -->
+    <script src="../js/custom.js"></script><!-- CUSTOM JS -->
+    
+</body>
+
+</html>
