@@ -22323,6 +22323,15 @@ ul a.rsswidget:hover {
     display: block !important;
 }
 
+.partner-logo {
+    max-width: 100%;
+    max-height: 90px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    transition: all 0.5s;
+}
+
 .service-detail .dz-media {
     margin-bottom: 45px;
 }
@@ -25855,6 +25864,20 @@ pre {
 
 .header-tb .navicon span {
     background: #fff;
+}
+
+@media only screen and (max-width: 991px) {
+    .site-header .main-bar .navbar-toggler.navicon {
+        position: fixed;
+        top: auto;
+        left: auto;
+        right: 15px;
+        bottom: 85px;
+        margin: 0;
+        float: none;
+        z-index: 1050;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    }
 }
 
 .header-nav {

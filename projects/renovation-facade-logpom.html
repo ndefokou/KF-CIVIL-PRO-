@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords"
+        content="DT DESIGN, architecture, ingénierie, bureau d’études à Douala, design d’intérieur, génie civil, réalisation de projets, BTP Cameroun, architecture Douala, ingénierie BTP, aménagement intérieur, Cameroun," />
+    <meta name="author" content="DT DESIGN" />
+    <meta name="robots" content="robots.txt" />
+    <meta name="description"
+        content="DT DESIGN : Entreprise spécialisée en architecture, ingénierie, design d'intérieur et réalisation de projets, basée à Douala (Cameroun)." />
+    <meta property="og:title"
+        content="DT DESIGN : Entreprise spécialisée en architecture, ingénierie, design d'intérieur et réalisation de projets, basée à Douala (Cameroun)." />
+    <meta property="og:description"
+        content="DT DESIGN : Entreprise spécialisée en architecture, ingénierie, design d'intérieur et réalisation de projets, basée à Douala (Cameroun)." />
+    <meta property="og:image" content="https://www.dtdesign.com/images/logo-dtdesign.png" />
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- Mobile Specific -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title -->
+    <title>DT DESIGN : Architecture, Ingénierie, Design d'Intérieur & Réalisation de Projets</title>
+
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" href="../images/favicon.ico">
+    <link rel="apple-touch-icon" type="image/png" href="../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="512x512"
+        href="../images/favicon-512.png">
+    <link rel="icon" type="image/png" sizes="192x192"
+        href="../images/favicon-192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32.png">
+
+
+    <!-- Stylesheet -->
+    <link href="../vendor/lightgallery/css/lightgallery.min.css" rel="stylesheet">
+    <link href="../vendor/magnific-popup/magnific-popup.min.css" rel="stylesheet">
+    <link href="../vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="../vendor/aos/aos.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="stylesheet" class="skin" href="../css/skin/skin-1.css">
+    <style>
+    /* Règle générale pour tous les strong/b dans .port-detail : noir, gras (700), sans soulignement */
+    .port-detail strong,
+    .port-detail b {
+        color: #000000; /* Noir par défaut */
+        font-weight: 700; /* Gras */
+        text-decoration: none; /* Retire tout soulignement par défaut */
+    }
+
+    /* Règle pour le titre principal du projet (h2.dz-title) */
+    .dz-title {
+        color: #dec36a;
+    }
+
+    /* Styles pour les "sous-titres" Localisation et Appelez-nous (h4.title.m-b5) :
+    Couleurjaune (#d4ab3b) et taille de 18px.
+    Nous allons les cibler de manière plus spécifique pour augmenter la priorité.
+    */
+    .icon-bx-wraper.style-7 .icon-content h4.title.m-b5 {
+        color: #d4ab3b !important; /* Couleurjaune demandée */
+        font-size: 18px !important; /* Taille de 18px */
+    }
+
+    /* Nouvelle règle : Tous les éléments h3 doivent être en #d4ab3b et de taille 20px */
+    /* Ajout de !important pour forcer la couleur et la taille au cas où */
+    h3 {
+        color: #d4ab3b !important; /* Couleurjaune demandée */
+        font-size: 20px !important; /* Nouvelle taille demandée : 20px */
+    }
+
+    /* Style général pour les wrappers de boutons de navigation */
+    /* Le 'next-project-button-wrapper' existant pour les boutons de fin de description */
+    .next-project-button-wrapper {
+        margin-top: 30px; /* Ajoute un espacement au-dessus du bouton pour le séparer de la description */
+        margin-bottom: 30px; /* Ajoute un espacement en dessous pour le séparer des icônes de localisation/téléphone */
+        text-align: center; /* Centre le bouton dans son conteneur */
+    }
+
+    /* Nouveau style pour le wrapper du bouton "Autres projets" en haut de page */
+    .top-projects-button-wrapper {
+        text-align: center; /* Centrer le bouton */
+        margin-top: 40px; /* Espace au-dessus, pour ne pas être collé au header */
+        margin-bottom: 40px; /* Espace en dessous, pour ne pas être collé au contenu du projet */
+    }
+
+    .project-button {
+        display: inline-flex; /* Permet d'aligner l'icône et le texte */
+        align-items: center; /* Aligne verticalement l'icône et le texte */
+        background-color: #d4ab3b; /* Couleur de fond du bouton */
+        color: #FFFFFF; /* Couleur du texte du bouton */
+        font-size: 16px;
+        font-weight: bold;
+        padding: 15px 30px;
+        border-radius: 5px; /* Bords légèrement arrondis */
+        text-decoration: none; /* Pas de soulignement */
+        transition: background-color 0.3s ease; /* Effet de transition au survol */
+        /* Si vous avez d'autres boutons à côté, ajoutez un margin: 0 10px; */
+    }
+
+    .project-button:hover {
+        background-color: #dec36a; /* Couleur légèrement plus claire au survol */
+        color: #FFFFFF; /* S'assurer que le texte reste blanc au survol */
+        text-decoration: none; /* Pas de soulignement au survol */
+    }
+
+    .project-button i {
+        margin-left: 10px; /* Espace entre le texte et la flèche */
+        font-size: 1.2em; /* Taille de la flèche */
+    }
+
+    /* Important : Si "Maitre d’ouvrage :" et "Description de l’opération :" sont aussi censés être enjaune,
+    et qu'ils sont des <strong> dans les paragraphes, tu devras leur donner une classe spécifique (ex: <strong class="text-rouge">)
+    et ajouter la règle CSS suivante :
+    .port-detail .text-rouge {
+        color: #d4ab3b !important;
+    }
+    */
+</style>
+</head>
+
+<body id="bg" class="theme-rounded">
+    <!--<div id="loading-area" class="loading-page-1">
+        <div class="spinner">
+            <div class="ball"></div>
+            <p>Chargement</p>
+        </div>
+    </div>-->
+    <div class="page-wraper">
+        <!-- Header -->
+        <header class="site-header mo-left header style-1">
+    <!-- Header Top Bar -->
+    <div class="top-bar">
+    <div class="container-fluid">
+        <div class="dz-topbar-inner d-flex justify-content-between align-items-center">
+            <div class="dz-topbar-left">
+                <ul class="dz-social-icon">
+                    <li><a class="fab fa-facebook-f" href="https://www.dtdesign.com"></a>
+                    </li>
+                    <li><a class="fab fa-twitter" href="duplex-residentiel-yaounde.html"></a></li>
+                    <li><a class="fab fa-linkedin" href="duplex-residentiel-yaounde.html"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="dz-topbar-right">
+                <ul>
+                    <li>
+                        <div class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                                                            <span>Français</span>
+                                                    </div>
+                        <div class="dropdown-menu">
+                            <a href="../language/en.html"
+                                class="dropdown-item">Anglais</a>
+                            <a href="../language/fr.html"
+                                class="dropdown-item">Français</a>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        Zone aéroportuaire, face au Douala Grand Mall - Douala 5, Cameroun                    </li>
+                    
+                    <li>
+                        <i class="far fa-envelope"></i>
+                        <a href="mailto:contact@dtdesign.com" style="font-weight: 900; color: black;">contact@dtdesign.com</a>                    </li>
+                    
+                    <li>
+                        <i class="fas fa-phone-alt"></i>
+                        (+237) 6 9730 4462 | <a href="tel:+237683593839" style="font-weight: 900; color: #d4ab3b;"> (+237) 6 8359 3839</a>                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- Main Header -->
+    <div class="sticky-header main-bar-wraper navbar-expand-lg">
+        <div class="main-bar clearfix ">
+            <div class="container-fluid clearfix" style="height: 80px;">
+                <!-- Website Logo -->
+                <div class="logo-header mostion logo-dark" style="height: 80px;">
+                    <a href="../language/fr.html"><img src="../images/logo-dtdesign.png"
+                            alt="Logo DT DESIGN"></a>
+                </div>
+                <!-- Nav Toggle Button -->
+                <button class="navbar-toggler collapsed navicon justify-content-end" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <div class="header-nav navbar-collapse collapse justify-content-center" id="navbarNavDropdown">
+                    <div class="logo-header logo-dark">
+                        <a href="../language/fr.html"><img src="../images/logo-dtdesign.png"
+                                alt="Logo DT DESIGN"></a>
+                    </div>
+                    <ul class="nav navbar-nav navbar navbar-left">
+                        <li class=""><a href="../language/fr.html">ACCUEIL</a></li>
+                        <li class=""><a href="../about-us.html">A PROPOS</a></li>
+                        <li class=""><a href="../our-skills.html">NOS MÉTIERS</a></li>
+                        <li class=" active"><a href="../projects.html">NOS PROJETS</a></li>
+                        <li class=""><a href="../contact-us.html">CONTACTEZ-NOUS</a></li>
+                    </ul>
+                    <div class="dz-social-icon">
+                        <ul>
+                            <li><a class="fab fa-facebook-f"
+                                    href="https://www.dtdesign.com"></a>
+                            </li>
+                            <li><a class="fab fa-twitter"
+                                    href="duplex-residentiel-yaounde.html"></a>
+                            </li>
+                            <li><a class="fab fa-linkedin-in"
+                                    href="duplex-residentiel-yaounde.html"></a>
+                            </li>
+                            <li><a class="fab fa-instagram"
+                                    href="duplex-residentiel-yaounde.html"></a>
+                            </li>
+                            <li>
+                                <div class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                                                            <span>Français</span>
+                                                                    </div>
+                                <div class="dropdown-menu">
+                                    <a href="../language/en.html"
+                                        class="dropdown-item">Anglais</a>
+                                    <a href="../language/fr.html"
+                                        class="dropdown-item">Français</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Main Header End -->
+</header>
+        <!-- Header End -->
+        <div class="contact-sidebar">
+    <div class="contact-box">
+        <div class="logo-contact logo-dark">
+            <a href="../language/fr.html"><img src="../images/logo-dtdesign.png"
+                    alt="Logo DT DESIGN"></a>
+        </div>
+
+        <div class="m-b50 contact-text">
+            <div class="dz-title">
+                <h4>A PROPOS</h4>
+                <div class="dz-separator style-1 text-primary mb-0"></div>
+            </div>
+            <p>Construire l’avenir avec expertise et innovation.</p>
+            <a href="../contact-us.html"
+                class="btn btn-primary btn-sm">Prêt à passer à l&#039;action ?</a>
+        </div>
+        <div class="dz-title">
+            <h4>Informations de contact</h4>
+            <div class="dz-separator style-1 text-primary mb-0"></div>
+        </div>
+        <div class="icon-bx-wraper left">
+            <div class="icon-md m-r20">
+                <span class="icon-cell"><i class="las la-phone-volume"></i></span>
+            </div>
+            <div class="icon-content">
+                <h5 class="tilte">Numéro de téléphone</h5>
+                <p class="m-b0">(+237) 6 9730 4462 / (+237) 6 8359 3839 </p>
+            </div>
+        </div>
+        <div class="icon-bx-wraper left">
+            <div class="icon-md m-r20">
+                <span class="icon-cell"><i class="las la-envelope-open"></i></span>
+            </div>
+            <div class="icon-content">
+                <h5 class="tilte">Adresse mail </h5>
+                <p class="m-b0">contact@dtdesign.com</p>
+            </div>
+        </div>
+        <div class="icon-bx-wraper left">
+            <div class="icon-md m-r20">
+                <span class="icon-cell"><i class="las la-map-marker"></i></span>
+            </div>
+            <div class="icon-content">
+                <h5 class="tilte">Localisation</h5>
+                <p class="m-b0">Zone aéroportuaire, face au Douala Grand Mall - Douala 5</p>
+            </div>
+        </div>
+    </div>
+</div>
+        <div class="menu-close"></div>
+
+                    <div class="page-content bg-white">
+
+    <!-- Banner -->
+    <div class="dz-bnr-inr overlay-black-middle bg-pt" style="background-image:url('../images/projets/renovation-facade-logpom/1(5).jpg'); background-size:cover; background-position:center;">
+        <div class="container">
+            <div class="dz-bnr-inr-entry">
+                <h1 class="text-white">Rénovation de Façade Immeuble R+4 - Logpom</h1>
+                <p class="text-white font-18">Rénovation & Façades — Douala, Logpom</p>
+                <nav aria-label="breadcrumb" class="breadcrumb-row">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="../language/fr.html">Accueil</a></li>
+                        <li class="breadcrumb-item"><a href="../projects.html">Nos Projets</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Rénovation de Façade Immeuble R+4 - Logpom</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Detail Content -->
+    <div class="section-full content-inner bg-white">
+        <div class="container">
+            <div class="row">
+                <!-- Main Content -->
+                <div class="col-lg-8 m-b30">
+                    <div class="port-detail">
+                        <h2 class="dz-title m-b20" style="color: #dec36a;">Rénovation de Façade Immeuble R+4 - Logpom</h2>
+                        
+                        <div class="m-b30">
+                            <h3 style="color: #d4ab3b !important; font-size:20px !important;">Description du Projet</h3>
+                            <p class="font-16 text-secondary" style="line-height:1.8;">Projet architectural complet à usage résidentiel, conçu dans une approche contemporaine et fonctionnelle. L'architecture met en valeur des volumes simples, une organisation spatiale claire et une relation harmonieuse entre espaces intérieurs et extérieurs, adaptée au contexte urbain et climatique local.</p>
+                        </div>
+
+                        <div class='m-b30'><h3 style='color: #d4ab3b !important; font-size:20px !important;'>Espaces & Organisation Spatiale</h3><ul class='list-unstyled font-16' style='line-height:2;'><li><i class='fa fa-check text-primary me-2'></i> Séjour et salle à manger</li><li><i class='fa fa-check text-primary me-2'></i> Cuisine</li><li><i class='fa fa-check text-primary me-2'></i> Chambres</li><li><i class='fa fa-check text-primary me-2'></i> Salles d'eau</li><li><i class='fa fa-check text-primary me-2'></i> Dégagements</li><li><i class='fa fa-check text-primary me-2'></i> Terrasses</li><li><i class='fa fa-check text-primary me-2'></i> Espaces extérieurs aménagés</li><li><i class='fa fa-check text-primary me-2'></i> Stationnement</li></ul></div>
+
+                        <div class='m-b30'><h3 style='color: #d4ab3b !important; font-size:20px !important;'>Points Forts & Concept</h3><ul class='list-unstyled font-16' style='line-height:2;'><li><i class='fa fa-star text-warning me-2'></i> Requalification complète de façade</li><li><i class='fa fa-star text-warning me-2'></i> Modernisation architecturale</li><li><i class='fa fa-star text-warning me-2'></i> Harmonie entre espaces intérieurs et extérieurs</li></ul></div>
+
+                        <div class='m-b30'><h3 style='color: #d4ab3b !important; font-size:20px !important;'>Matériaux & Finitions</h3><ul class='list-unstyled font-16' style='line-height:2;'><li><i class='fa fa-layer-group text-primary me-2'></i> Structure en béton armé</li><li><i class='fa fa-layer-group text-primary me-2'></i> Murs en blocs enduits avec peinture de finition</li><li><i class='fa fa-layer-group text-primary me-2'></i> Menuiseries aluminium et vitrages clairs</li><li><i class='fa fa-layer-group text-primary me-2'></i> Revêtements de sol en carrelage</li><li><i class='fa fa-layer-group text-primary me-2'></i> Toiture adaptée avec évacuation pluviale</li></ul></div>
+                    </div>
+                </div>
+
+                <!-- Sidebar Metadata Box -->
+                <div class="col-lg-4 m-b30">
+                    <div class="icon-bx-wraper style-7 p-a30 border rounded shadow-sm bg-light">
+                        <div class="icon-content">
+                            <h4 class="title m-b15" style="color: #d4ab3b !important; font-size: 18px !important;">Caractéristiques du Projet</h4>
+                            
+                            <ul class="list-unstyled font-15" style="line-height: 2.2;">
+                                <li><strong>Catégorie :</strong> Rénovation & Façades</li>
+                                <li><strong>Type :</strong> Bâtiment résidentiel R+4</li>
+                                <li><strong>Localisation :</strong> Douala, Logpom</li>
+                                <li><strong>Terrain :</strong> 550 m²</li>
+                                <li><strong>Surface Bâtie :</strong> environ 450 m²</li>
+                                <li><strong>Date de conception :</strong> 2025</li>
+                                <li><strong>Agence :</strong> DT DESIGN Douala</li>
+                            </ul>
+
+                            <div class="m-t20">
+                                <a href="../contact-us.html" class="btn btn-primary w-100" style="background-color:#d4ab3b; border-color:#d4ab3b;">Demander une consultation</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Image Gallery -->
+            <div class="m-t30">
+                <h3 style="color: #d4ab3b !important; font-size:20px !important;" class="m-b25">Galerie Visuelle du Projet</h3>
+                <div class="row">
+                    
+        <div class="col-md-6 col-lg-4 m-b30">
+            <div class="dz-box style-1 border rounded overflow-hidden shadow-sm" style="background:#000;">
+                <img src="../images/projets/renovation-facade-logpom/1(5).jpg" alt="Rénovation de Façade Immeuble R+4 - Logpom - Image 1" style="width:100%; height:250px; object-fit:cover;">
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4 m-b30">
+            <div class="dz-box style-1 border rounded overflow-hidden shadow-sm" style="background:#000;">
+                <img src="../images/projets/renovation-facade-logpom/1.jpg" alt="Rénovation de Façade Immeuble R+4 - Logpom - Image 2" style="width:100%; height:250px; object-fit:cover;">
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4 m-b30">
+            <div class="dz-box style-1 border rounded overflow-hidden shadow-sm" style="background:#000;">
+                <img src="../images/projets/renovation-facade-logpom/2(5).jpg" alt="Rénovation de Façade Immeuble R+4 - Logpom - Image 3" style="width:100%; height:250px; object-fit:cover;">
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4 m-b30">
+            <div class="dz-box style-1 border rounded overflow-hidden shadow-sm" style="background:#000;">
+                <img src="../images/projets/renovation-facade-logpom/2.jpg" alt="Rénovation de Façade Immeuble R+4 - Logpom - Image 4" style="width:100%; height:250px; object-fit:cover;">
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4 m-b30">
+            <div class="dz-box style-1 border rounded overflow-hidden shadow-sm" style="background:#000;">
+                <img src="../images/projets/renovation-facade-logpom/3(4).jpg" alt="Rénovation de Façade Immeuble R+4 - Logpom - Image 5" style="width:100%; height:250px; object-fit:cover;">
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4 m-b30">
+            <div class="dz-box style-1 border rounded overflow-hidden shadow-sm" style="background:#000;">
+                <img src="../images/projets/renovation-facade-logpom/3.jpg" alt="Rénovation de Façade Immeuble R+4 - Logpom - Image 6" style="width:100%; height:250px; object-fit:cover;">
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4 m-b30">
+            <div class="dz-box style-1 border rounded overflow-hidden shadow-sm" style="background:#000;">
+                <img src="../images/projets/renovation-facade-logpom/4(2).jpg" alt="Rénovation de Façade Immeuble R+4 - Logpom - Image 7" style="width:100%; height:250px; object-fit:cover;">
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4 m-b30">
+            <div class="dz-box style-1 border rounded overflow-hidden shadow-sm" style="background:#000;">
+                <img src="../images/projets/renovation-facade-logpom/4.jpg" alt="Rénovation de Façade Immeuble R+4 - Logpom - Image 8" style="width:100%; height:250px; object-fit:cover;">
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4 m-b30">
+            <div class="dz-box style-1 border rounded overflow-hidden shadow-sm" style="background:#000;">
+                <img src="../images/projets/renovation-facade-logpom/5.jpg" alt="Rénovation de Façade Immeuble R+4 - Logpom - Image 9" style="width:100%; height:250px; object-fit:cover;">
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4 m-b30">
+            <div class="dz-box style-1 border rounded overflow-hidden shadow-sm" style="background:#000;">
+                <img src="../images/projets/renovation-facade-logpom/6.jpg" alt="Rénovation de Façade Immeuble R+4 - Logpom - Image 10" style="width:100%; height:250px; object-fit:cover;">
+            </div>
+        </div>
+        
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<footer class="site-footer style-1" id="footer"
+    style="background-image:url(../images/background/pattern3.png)">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 col-lg-6 ">
+                    <img src="../images/logo-dtdesign.png" style="height: 150px;margin-bottom: 30px;"
+                        alt="Logo DT DESIGN">
+                    <p>Construire l’avenir avec expertise et innovation.</p>
+                </div>
+                <div class="col-md-6 col-lg-3 aos-item" data-aos="fade-up" data-aos-duration="1000"
+                    data-aos-delay="800">
+                    <div class="widget widget_categories">
+                        <div class="widget-title">
+                            <h4 class="title">Liens Rapides</h4>
+                            <div class="dz-separator style-1 text-primary mb-0"></div>
+                        </div>
+                        <ul class="list-1">
+                            <li class="cat-item"><a href="../language/fr.html">ACCUEIL</a></li>
+                            <li class="cat-item"><a href="../about-us.html">A PROPOS</a></li>
+                            <li class="cat-item"><a href="../our-skills.html">NOS MÉTIERS</a></li>
+                            <li class="cat-item"><a href="../projects.html">NOS PROJETS</a></li>
+                            <li class="cat-item"><a href="../contact-us.html">CONTACTEZ-NOUS</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 aos-item" data-aos="fade-up" data-aos-duration="1000"
+                    data-aos-delay="1000">
+                    <div class="widget widget_getintuch">
+                        <div class="widget-title">
+                            <h4 class="title">CONTACTEZ-NOUS</h4>
+                            <div class="dz-separator style-1 text-primary mb-0"></div>
+                        </div>
+                        <ul>
+                            <li><i class="flaticon-telephone"></i>
+                                <h5>Numéro de téléphone</h5> (+237) 6 9730 4462 / (+237) 6 8359 3839 
+                            </li>
+                            <li><i class="flaticon-email"></i>
+                                <h5>Adresse mail </h5>contact@dtdesign.com
+                            </li>
+                            <li><i class="flaticon-maps-and-location"></i>
+                                <h5>Localisation</h5>Zone aéroportuaire, face au Douala Grand Mall - Douala 5
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row align-items-center fb-inner spno">
+                <div class="col-lg-6 col-md-12 text-start">
+                    <span class="copyright-text">Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear())
+                        </script> <a href="https://www.dtdesign.com/" class="text-primary"
+                            target="_blank">DT DESIGN</a> All rights reserved. By <a
+                            href="https://novatique-web.com/" class="text-primary" target="_blank">Novatique</a>
+                    </span>
+                </div>
+                <div class="col-lg-6 col-md-12 text-end">
+                    <ul class="footer-link d-inline-block">
+                        <li><a href="https://www.dtdesign.com"><i
+                                    class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="duplex-residentiel-yaounde.html"><i
+                                    class="fab fa-instagram"></i></a></li>
+                        <li><a href="duplex-residentiel-yaounde.html"><i
+                                    class="fab fa-twitter"></i></a></li>
+                        <li><a href="duplex-residentiel-yaounde.html"><i
+                                    class="fab fa-linkedin"></i></a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer End -->
+        <button class="scroltop icon-up" type="button"><i class="fas fa-arrow-up"></i></button>
+    </div>
+    <!-- JAVASCRIPT FILES ========================================= -->
+    <script src="../js/jquery.min.js"></script><!-- JQUERY.MIN JS -->
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script><!-- BOOTSTRAP.MIN JS -->
+
+    <script src="../vendor/magnific-popup/magnific-popup.js"></script><!-- MAGNIFIC POPUP JS -->
+    <script src="../vendor/lightgallery/js/lightgallery-all.min.js"></script><!-- LIGHTGALLERY -->
+    <script src="../vendor/counter/waypoints-min.js"></script><!-- WAYPOINTS JS -->
+    <script src="../vendor/counter/counterup.min.js"></script><!-- COUNTERUP JS -->
+    <script src="../vendor/swiper/swiper-bundle.min.js"></script><!-- OWL-CAROUSEL -->
+    <script src="../vendor/aos/aos.js"></script><!-- AOS -->
+    <script src="../js/dz.carousel.js"></script><!-- OWL-CAROUSEL -->
+    <script src="../js/dz.ajax.js"></script><!-- AJAX -->
+    <script src="../js/custom.js"></script><!-- CUSTOM JS -->
+    
+</body>
+
+</html>
