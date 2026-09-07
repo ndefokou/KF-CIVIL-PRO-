@@ -22323,6 +22323,15 @@ ul a.rsswidget:hover {
     display: block !important;
 }
 
+.partner-logo {
+    max-width: 100%;
+    max-height: 90px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    transition: all 0.5s;
+}
+
 .service-detail .dz-media {
     margin-bottom: 45px;
 }
